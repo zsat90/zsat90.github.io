@@ -1,0 +1,63 @@
+body{
+    display: block;
+}
+
+main{
+    margin: 5% auto;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 938px;
+    box-shadow: 0 0 20px 0px;
+}
+
+header, footer{ 
+    height: 120px;
+    background-color: #000080;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2.5em;
+    
+
+}
+
+.picOfMe{
+    box-shadow: 4px 8px 20px rgba(0,0,0,1);
+    float: right;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-top: -75px;
+    width: 250px;
+
+
+}
+
+.assignments{
+    height: 250px;
+    
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    padding-left: 20px;
+}
+
+.assignmentList{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+
+}
+
+li {
+    padding: 2px;
+}
+
+.byuLink{
+    color: white;
+}
