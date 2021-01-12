@@ -1,13 +1,18 @@
 body{
     display: block;
-}
-
-main{
     margin: 5% auto;
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
     max-width: 938px;
     box-shadow: 0 0 20px 0px;
+}
+
+main{
+    /* margin: 5% auto;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 938px;
+    box-shadow: 0 0 20px 0px; */
 }
 
 header, footer{ 
