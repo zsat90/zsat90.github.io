@@ -34,7 +34,6 @@ main{
     display: grid;
     grid-template-columns: 1fr;
     padding-top: 25px;
-    
 
 }
 
@@ -182,12 +181,13 @@ main{
 
 
 footer{
-    text-align: center;
-    padding: 1rem 2%;
     background-color: #000080;
     color: white;
+    margin: auto;
     text-align: center;
+    padding: 1rem 2%;
     font-size: 1.3rem;
+    
 }
 
 footer a{
