@@ -62,7 +62,7 @@ main{
 }
 
 .contrast a{
-    color: #124fd3;
+    color: #000080;
     padding: 20px;
     font-size: 1rem;
 }
@@ -110,7 +110,7 @@ main{
 }
 
 .visual_hierarchy a{
-    color: #124fd3;
+    color: #000080;
     padding: 20px;
     font-size: 1rem;
 }
@@ -157,7 +157,7 @@ main{
 }
 
 .repetition a{
-    color: #124fd3;
+    color: #000080;
     padding: 20px;
     font-size: 1rem;
 }
