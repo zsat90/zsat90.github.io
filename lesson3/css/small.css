@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+
+    
+}
+
+header {
+    padding: 1rem 2%;
+    background-color: #21A179;
+    margin: 0;
+}
+
+header img{
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+}
+
+header h1{
+    font-size: 45px;
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+
+}
+
+header h2{
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #21A179;
+    padding-bottom: 1rem;
+    display: block;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #292F36;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+
+
+nav ul li a:hover {
+    background-color: #81AE9D;
+    color: black;
+}
+nav ul li.active a {
+    background-color: #292F36;
+    color: #fff;
+}
+
+main{
+    display: inline-block;
+    padding: 2.7rem 2%;
+
+
+    
+}
+
+main p{
+    padding: 0 2%;
+}
+main h1{
+    padding: 10px;
+    margin: 0;
+}
+
+main img{
+    width: 100px;
+    padding-bottom: 80px;
+   
+}
+
+.colorscheme{
+    width: 100%;
+}
+
+
+footer{
+    background-color: #21A179;
+    padding: 1rem;
+    text-align: center;
+    
+    
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
