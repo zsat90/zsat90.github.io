@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1224px){
+    main{
+       padding-left: 25%;
+       padding-right: 25%;
+        
+    }
+
+    footer{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+     main h2{
+        text-align: left;
+        padding: .3rem 2%;
+
+    }
+
+}
