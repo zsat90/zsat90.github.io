@@ -1,9 +1,5 @@
-@media only screen and (min-width: 1224px){
-    main{
-       padding-left: 25%;
-       padding-right: 25%;
-        
-    }
+@media only screen and (min-width: 1025px){
+    
 
     footer{
         display: flex;
@@ -19,4 +15,18 @@
 
     }
 
+    nav ul li a{
+        padding: .5rem 1.3rem;
+    }
+
+    /* .weather-summary{
+         height: 50vh;
+       
+    }
+    .heroimg{
+        
+        height: 60vh;
+    
+        
+    } */
 }

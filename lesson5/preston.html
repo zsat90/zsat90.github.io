@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Preston Town Page" content="">
+    <meta name = "description" content="This is the Presoton town page for weather">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Document</title>
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <script>window.onload = function() {
+            pancake();
+    }</script>
+    <div id="pancakes">Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <img src="images/weather_7-128.webp" alt="Weather Logo">
+        <section class="heading">
+        <h1>The Weather Site</h1>
+        <h3>Anytime weather report</h3>
+    </section>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick=toggleMenu()>&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="index.html">Preston</a></li>
+            <li><a href="index.html">Soda Springs</a></li>
+            <li><a href="index.html">Fish Haven</a></li>
+            <li><a href="index.html">Storm Center</a></li>
+            <li><a href="index.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston Idaho</h2>
+
+        <div class="weather-summary-container">
+            <img class="heroimg" src="images/pexels-photo-1183099.jpeg" alt="Hero image">
+            <div class="weather-summary">
+            <h3 class="weather-summary-title">Weather Summary</h3>
+            <hr>
+            <div>
+                <div class="current-weather"><p class="categories">Currently:</p> <p class="values">Cloudy</p></div>
+                <div class="current-weather"><p class="categories">High:</p> <p class="values">60-F</p></div>
+               <div class="current-weather"> <p class="categories">Wind Chill:</p> <p class="values">55-F</p> </div>
+                <div class="current-weather"><p class="categories">Humidity:</p> <p class="values">55%</p> </div>
+                <div class="current-weather"><p class="categories">Wind Speed:</p> <p class="values">3 MPH</p> </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="five-day">
+            <h3> 5 Day Forecast </h3> 
+
+            <div class="five-day-container">
+            <div class="per-day-weather"><p>Monday</p> <img class="weather-img" src="images/rainy.png" alt="rainy"> <p>34°</p></div>
+            <div class="per-day-weather"><p>Tuesday</p> <img class="weather-img"  src="images/rainy.png" alt="rainy"> <p>34°</p></div>
+            <div class="per-day-weather"><p>Wednesday</p> <img class="weather-img"  src="images/rainy.png" alt="rainy"> <p>34°</p></div>
+            <div class="per-day-weather"><p>Thursday</p> <img class="weather-img"  src="images/rainy.png" alt="rainy"> <p>34°</p></div>
+            <div class="per-day-weather"><p>Friday</p> <img class="weather-img" src="images/rainy.png" alt="rainy"> <p>34°</p></div>
+            </div>
+    
+    
+        </div>
+        
+            <article class="article">
+                <h3>Article Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit id urna, suspendisse mi erat habitasse euismod torquent habitant dictumst tortor molestie, convallis cubilia fringilla pretium facilisi bibendum ligula enim. Fames hac sollicitudin nam non tristique aenean felis rutrum porta, egestas mattis lacinia volutpat nunc vulputate massa. Conubia dignissim proin augue quisque vehicula tempor odio et aptent tempus, quis sapien accumsan potenti pulvinar pharetra praesent ut hendrerit, vel imperdiet feugiat cras ridiculus eget gravida himenaeos tincidunt. Vivamus cursus magna dictum cum velit taciti commodo, lacus metus sociis 
+                    morbi purus est magnis donec, suscipit natoque sem blandit lobortis quam. Nisl in turpis ante varius semper penatibus sed aliquet sodales, iaculis platea scelerisque at <span> <img src="images/ariticle_img.jpeg" alt="seaguls"> </span>fermentum dapibus mus elementum, a netus rhoncus ultrices venenatis class nisi vestibulum. Vitae posuere primis justo litora pellentesque inceptos maecenas, dis curae luctus facilisis tellus lectus, nec placerat arcu ornare sagittis fusce. Nullam nibh libero orci congue, dui risus diam. 
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit id urna, suspendisse mi erat habitasse euismod torquent habitant dictumst tortor molestie, convallis cubilia fringilla pretium facilisi bibendum ligula enim. Fames hac sollicitudin nam non tristique aenean felis rutrum porta, egestas mattis lacinia volutpat nunc vulputate massa. Conubia dignissim proin augue quisque vehicula tempor odio et aptent tempus, quis sapien accumsan potenti pulvinar pharetra praesent ut hendrerit, vel imperdiet feugiat cras ridiculus eget gravida himenaeos tincidunt. Vivamus cursus magna dictum cum velit taciti commodo, lacus metus sociis morbi purus est magnis donec, suscipit natoque sem blandit lobortis quam. Nisl in turpis ante varius semper penatibus sed aliquet sodales, iaculis platea scelerisque at fermentum dapibus mus elementum, a netus rhoncus ultrices venenatis class nisi vestibulum. Vitae posuere primis justo litora pellentesque inceptos maecen.</p>
+               
+            </article>
+        
+        <div class="contact">
+            <h3>Contact Information</h3>
+            
+        <div class="contact-us">
+            <img src="images/Preston-Idaho.png" alt="Map of Preston">
+            <div class="contact-info">
+            <h5>Address:</h5>
+            <p>123 N Preston, ID 83263 </p>
+            <h5>Phone:</h5>
+            <p>(801)432-3421</p>
+            <h5>Email:</h5>
+            <p>notreal@fake.com</p>
+        </div>
+        </div>
+
+            </div>
+    </main>
+
+    <footer>
+            &copy; 2021 | The Weather Site | Zakery Sattler<br>
+            <div id="date"></div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+@media only screen and (min-width: 1025px){
+    
+
+    footer{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+     main h2{
+        text-align: left;
+        padding: .3rem 2%;
+
+    }
+
+    nav ul li a{
+        padding: .5rem 1.3rem;
+    }
+
+    .weather-summary{
+         height: 50vh;
+       
+    }
+    .heroimg{
+        
+        height: 60vh;
+    
+        
+    }
+
+    .contact-us{
+        display: flex;
+        align-items: center;
+        
+        justify-content: center;
+    }
+
+    .contact h3{
+        margin-left: 25px;
+    
+       
+    }
+    .contact img{
+        padding-left: 50px
+    }
+    .contact h5{
+        font-size: 2.8rem;
+        padding-left: 0;
+    }
+
+    .contact p{
+        font-size: 2rem;
+        padding-left: 0;
+    }
+
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        padding-left: 220px;
+    }
+}

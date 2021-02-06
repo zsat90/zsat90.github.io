@@ -1,0 +1,124 @@
+@media only screen and (min-width: 724px){
+
+    div#pancakes{
+        font-size: 40px;
+
+    }
+
+    header img{
+        width: 200px;
+         
+    }
+
+    header h1{
+        font-size: 4rem;
+    }
+
+    header h3{
+        font-size: 2.5rem;
+    }
+
+    nav button{
+        display: none;
+    }
+
+    nav ul.hide{
+        display: inline;
+
+    }
+
+    nav ul li{
+        display: inline-flex;
+        
+    }
+    
+    nav ul li a{
+        border: none;
+        padding: .5rem .3rem;
+        font-size: 1.5rem;
+        
+        
+        
+    }
+    main h2{
+        font-size: 2.8rem;
+    }
+
+    main div{
+        font-size: 2rem;
+    }
+
+    footer{
+        font-size: 2rem;
+    }
+    .weather-summary{
+        width: 40vw;
+        height: 30vh;
+
+    }
+
+    .current-weather{
+        height: 50px;
+        font-size: 2rem;
+    }
+
+    .categories{
+        padding: 15px;
+        margin: 0
+    }
+
+    .values{
+        padding: 15px;
+        margin: 0;
+    }
+
+    .five-day{
+        display: inline;
+        margin-top: 210px;
+
+    }
+
+    .five-day h3{
+        margin-left: 20px;
+        font-size: 3rem;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .five-day-container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .article{
+        margin: 0;
+    }
+
+    .article img{
+        width: 400px;
+        height: 400px;
+        padding: 12px;
+    }
+
+    .article h3{
+        font-size: 3rem;
+    }
+
+    .contact h3{
+        font-size: 3rem;
+    }
+
+    .contact img{
+        width: 500px;
+        height: 400px;
+    }
+
+    .contact h5{
+        font-size: 2.8rem;
+        padding-left: 600px;
+    }
+
+    .contact p{
+        font-size: 2rem;
+        padding-left: 600px;
+    }
+}

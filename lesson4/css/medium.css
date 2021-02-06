@@ -1,4 +1,4 @@
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 724px){
 
     header img{
         width: 200px;
@@ -29,8 +29,9 @@
     
     nav ul li a{
         border: none;
-        padding: .5rem 1rem;
+        padding: .5rem .3rem;
         font-size: 1.5rem;
+        
         
         
     }
@@ -45,4 +46,11 @@
     footer{
         font-size: 2rem;
     }
+    /* .five-day{
+        display: inline;
+    }
+    .five-day-container{
+        display: flex;
+        justify-content: space-around;
+    } */
 }

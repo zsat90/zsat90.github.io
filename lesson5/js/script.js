@@ -14,18 +14,18 @@ function toggleMenu(){
     document.getElementById("primaryNav").classList.toggle("hide");
 }
 
-// function pancake(){
-//     const element = document.getElementById("pancakes");
+function pancake(){
+    const element = document.getElementById("pancakes");
 
-//     const dayNumber = today.getDay();
+    const dayNumber = today.getDay();
 
     
 
-//     if (dayNumber == 5){
-//         element.classList.add("showme");
-//     }else{
-//         element.classList.add("hideme");
-//     }
+    if (dayNumber == 5){
+        element.classList.add("showme");
+    }else{
+        element.classList.add("hideme");
+    }
     
 
-// }
+}
