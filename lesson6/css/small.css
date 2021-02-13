@@ -100,6 +100,7 @@ main h2{
     font-size: 1.5rem;
     text-align: center;
     font-family: 'Oswald', sans-serif;
+    margin-bottom: 0;
 }
 
  main{
@@ -108,7 +109,7 @@ main h2{
     
 }
 footer{
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     bottom: 0;
     left: 0;
@@ -122,26 +123,11 @@ footer div{
     padding: 10px;
 }
 
-.placeholders{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-.placeholder{
-    font-size: 2rem;
-    border: 1px solid black;
-    padding: 10px;
-
-}
-
-
-/* div#pancakes{
-    background-color: yellow;
-    font-size: 35px;
+div#pancakes{
+    background-color: #EDE342;
+    font-size: 20px;
     text-align: center;
+    padding: 5px;
 }
 
 div.hideme{
@@ -151,20 +137,48 @@ div.showme{
     display: block;
 }
 
-.heroimg{
+/* .heroimg{
     position: absolute;
     width: 100vw;
     height: 48vh;
     z-index: -1;
     
+} */
+
+.weather-summary-container{
+    position: relative;
+    margin: 0;
+    
+    
+
+    
 }
 
+.my-hero-img{
+    position: relative;
+    display: flex;
+    width: 100%;
+    
+
+    
+    
+}
+
+.my-hero-img img{
+    align-content: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+
+
+}
 
 .weather-summary{
-    background-color: rgba(255, 255, 255, .9);
-    width: 50vw;
+    background-color: rgba(0,0,0,.9);
+    width: 40vw;
     height: 30vh;
-    margin-left: 20px;
+    margin-left: 12px;
+    margin-top: 50px;
 
 
     
@@ -172,12 +186,25 @@ div.showme{
 
  .weather-summary-title{
     text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 12px;
 }
 
 .current-weather{
     display: flex;
     justify-content: center;
     height: 30px;
+    color: white;
+    font-size: .8rem;
+    
+}
+
+.values{
+    color: #EDE342;
+    padding-left: 5px;
+    font-size: 10px;
+
 }
 
 .five-day{
@@ -196,9 +223,13 @@ div.showme{
 }
 
 .article{
-    margin-top: 140px;
+    margin-top: 30px;
 
 
+}
+
+.categories{
+    font-size: 10px;
 }
 
 .article h3{
@@ -208,12 +239,49 @@ div.showme{
 }
 
 .article img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     float: right;
+    padding: 8px;
+}
+
+.article p{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.contact{
+    margin-bottom: 40px;
+}
+
+.contact h3{
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contact img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+}
+
+.contact-us{
+    margin-top: 30px;
+}
+
+.contact h5{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding-left: 280px;
+}
+
+.contact p{
+    font-size: .8rem;
+    padding-left: 280px;
+}
 
 
-} */
 
 /* .clearfix{
     content: "";
