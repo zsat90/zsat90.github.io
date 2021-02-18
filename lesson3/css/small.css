@@ -54,7 +54,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #292F36;
+    color: black;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
@@ -67,7 +67,7 @@ nav ul li a:hover {
     color: black;
 }
 nav ul li.active a {
-    background-color: #292F36;
+    background-color: black;
     color: #fff;
 }
 
@@ -104,6 +104,10 @@ footer{
     text-align: center;
     
     
+}
+
+.byuLink{
+    color: black;
 }
 
 
