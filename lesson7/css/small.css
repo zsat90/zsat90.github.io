@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    margin: 150px;
+    padding-top: 100px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+img{
+    padding: 100px;
+}
