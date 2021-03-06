@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Preston Town Page" content="">
+    <meta name = "description" content="This is the Presoton town page for weather">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Preston Town Page</title>
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <script>window.onload = function() {
+            pancake();
+    }</script>
+    <div id="pancakes">Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <img src="images/weather_7-128.webp" alt="Weather Logo">
+        <section class="heading">
+        <h1>The Weather Site</h1>
+        <h3>Anytime weather report</h3>
+    </section>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick=toggleMenu()>&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lesson8/preston.html">Preston</a></li>
+            <li><a href="index.html">Soda Springs</a></li>
+            <li><a href="index.html">Fish Haven</a></li>
+            <li><a href="index.html">Storm Center</a></li>
+            <li class="active"><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main class="gallery-main">
+        <h1>Gallery</h1>
+        <div class="gallery-container">
+       <picture>
+           <img src="images/placeholder.jpg" data-src="images/sunset.jpeg" alt="Sunset">
+           <figcaption>Sunset</figcaption>   
+       </picture>
+       <picture>
+           <img src="images/placeholder.jpg" data-src="images/bus-storm.jpeg" alt="Bus in Storm" >
+           <figcaption>Storm in City</figcaption>
+       </picture>
+       <picture>
+        <img src="images/placeholder.jpg"  data-src="images/sunny.jpeg" alt="Sunny day">
+        <figcaption>Clouds Reflected</figcaption>
+       </picture>
+       <picture>
+        <img src="images/placeholder.jpg" data-src="images/rainforest.jpeg" alt="Rain Forest">
+        <figcaption>The Rainforest</figcaption>
+       </picture>
+       <picture>
+        <img src="images/placeholder.jpg" data-src="images/stormcoming.jpeg" alt="Thunderstorm">
+        <figcaption>A Storm is Coming</figcaption>
+       </picture>
+       <picture>
+        <img src="images/placeholder.jpg" data-src="images/choppywaters.jpeg" alt="choppy waters">
+        <figcaption>Choppy Waters</figcaption>
+       </picture>
+       <picture>
+        <img src="images/placeholder.jpg" data-src="images/rainyday.jpeg" alt="rainy day">
+        <figcaption>Rainy Day</figcaption>
+       </picture>
+       <picture>
+        <img src="images/placeholder.jpg" data-src="images/snowcovered.jpeg" alt="snow covered">
+        <figcaption>Snow Covered Scene</figcaption>
+       </picture>
+       <picture>
+        <img src="images/placeholder.jpg" data-src="images/beachday.jpeg" alt="beach day">
+        <figcaption>Day at the beach</figcaption>
+       </picture>
+    </div>
+        
+        <div class="contact">
+            <h3>Contact Information</h3>
+            
+        <div class="contact-us">
+            <img src="images/Preston-Idaho.png" alt="Map of Preston">
+            <div class="contact-info">
+            <h5>Address:</h5>
+            <p>123 N Preston, ID 83263 </p>
+            <h5>Phone:</h5>
+            <p>(801)432-3421</p>
+            <h5>Email:</h5>
+            <p>notreal@fake.com</p>
+        </div>
+        </div>
+
+            </div>
+    </main>
+
+    <footer>
+            &copy; 2021 | The Weather Site | Zakery Sattler<br>
+            <div id="date"></div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+  google: {
+    families: [
+    'Raleway', 'Amatic SC', 'Oswald'
+    ]
+  }
+});
+</script>
+    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/lazyloading.js"></script>
+</body>
+</html>

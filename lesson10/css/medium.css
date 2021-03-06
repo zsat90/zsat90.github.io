@@ -1,8 +1,194 @@
 @media only screen and (min-width: 724px){
 
-    .cards{
+    div#pancakes{
+        font-size: 40px;
+
+    }
+
+    header img{
+        width: 200px;
+         
+    }
+
+    header h1{
+        font-size: 4rem;
+    }
+
+    header h3{
+        font-size: 2.5rem;
+    }
+
+    nav button{
+        display: none;
+    }
+
+    nav ul.hide{
+        display: inline;
+
+    }
+
+    nav ul li{
+        display: inline-flex;
         
-         grid-template-columns: 1fr 1fr;
+    }
+    
+    nav ul li a{
+        border: none;
+        padding: .5rem .3rem;
+        font-size: 1.5rem;
+        
+        
+        
+    }
+    main h2{
+        font-size: 2.8rem;
+    }
+
+    main div{
+        font-size: 2rem;
+    }
+
+    footer{
+        font-size: 2rem;
+    }
+    .weather-summary{
+        width: 48vw;
+        height: 50vh;
+        
+        margin-top: 100px;
+
+    }
+
+    .weather-summary-title{
+        font-size: 30px;
+    }
+
+    .current-weather{
+        height: 50px;
+        font-size: 2rem;
+    }
+
+    .categories{
+        padding: 10px;
+        margin: 0;
+        font-size: 20px;
+
+    }
+
+    .values{
+        padding: 10px;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .five-day{
+        display: inline;
+        margin-top: 30px;
+
+    }
+
+    .five-day h3{
+        margin-left: 20px;
+        font-size: 3rem;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .five-day-container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .article{
+        margin: 0;
+    }
+
+    .article img{
+        width: 400px;
+        height: 400px;
+        padding: 12px;
+    }
+
+    .article h3{
+        font-size: 3rem;
+    }
+
+    .contact h3{
+        font-size: 3rem;
+    }
+
+    .contact img{
+        width: 500px;
+        height: 400px;
+    }
+
+    .contact h5{
+        font-size: 2.8rem;
+       
+    }
+
+    .contact p{
+        font-size: 2rem;
+        
+    }
+
+    .my-hero-img{
+        width: 100%;
+    }
+    .my-hero-img img{
+        width: 100%;
+    
     
     }
+
+    .gallery-container{
+        
+        grid-template-columns: 1fr 1fr;
+     
+        
+    }
+    
+
+    form .label input, .label select {
+        font: 22px;
+    }
+
+    form legend {
+        
+        font-size: 22px;
+        
+    }
+
+    form fieldset{
+        width: 600px;
+        
+        
+    }
+
+    .townHeroImg{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+        width: 90%;
+        height: 10%;
+    }
+
+    
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+  .townCards section:nth-child(even) img{
+      grid-column: 1-2;
+  }
+
+    .townCards section:nth-child(even) #details {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.townCards img{
+    width: 90%;
+    margin-top: 25%;
+}
 }
