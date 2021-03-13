@@ -1,0 +1,57 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    
+    grid-gap: 40px;
+
+}
+
+section{
+    background-color: #B4D9FE;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #024C97;
+}
+
+h5{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+p{
+    text-align: center;
+}
+
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding-bottom: 20px;
+}
+
+footer{
+    padding-top: 50px;
+    text-align: center;
+}

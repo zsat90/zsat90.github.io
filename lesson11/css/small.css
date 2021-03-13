@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    padding: 1.8rem;
+    background-color: #90C2E7;
+    display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img{
+    height: auto;
+    width: 75px;
+    margin-right: 2%;
+    float: left;
+
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+}
+
+header h1{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+    color: #171A21;
+    font-weight: bold;
+    
+
+}
+
+header h3{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;  
+    color: #171A21;
+    font-family: 'Amatic SC', cursive;
+    display: block;
+}
+
+nav{
+    text-align: center;
+    background-color: #4E8098;
+    margin: 0;
+}
+nav button{
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #171A21;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    color: #171A21;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+nav ul li.active{
+    background-color: #f6ae2d;
+
+}
+
+nav ul li a:hover{
+    background-color: #f6ae2d;
+}
+
+nav ul.hide{
+    display: none;
+}
+
+main h2{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0;
+}
+
+ main{
+    display: flex;
+    flex-direction: column;
+    
+}
+footer{
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #90C2E7;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+
+}
+footer div{
+    padding: 10px;
+}
+
+div#pancakes{
+    background-color: #EDE342;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+div.hideme{
+    display: none;
+}
+div.showme{
+    display: block;
+}
+
+/* .heroimg{
+    position: absolute;
+    width: 100vw;
+    height: 48vh;
+    z-index: -1;
+    
+} */
+
+.weather-summary-container{
+    position: relative;
+    margin: 0;
+    
+    
+
+    
+}
+
+.my-hero-img{
+    position: relative;
+    display: flex;
+    width: 100%;
+    
+
+    
+    
+}
+
+.my-hero-img img{
+    align-content: center;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+
+
+}
+
+.weather-summary{
+    background-color: rgba(0,0,0,.9);
+    width: 40vw;
+    height: 30vh;
+    margin-left: 12px;
+    margin-top: 50px;
+
+
+    
+}
+
+ .weather-summary-title{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.current-weather{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    color: white;
+    font-size: .8rem;
+    
+}
+
+.values{
+    color: #EDE342;
+    padding-left: 5px;
+    font-size: 10px;
+
+}
+
+.five-day{
+    display: none;
+}
+
+#five-day table {
+    margin: 10px auto;
+    width: 75%;
+    text-align: center;
+    
+}
+#five-day td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.weather-img{
+    width: 100px;
+    height: auto;
+}
+
+.per-day-weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article{
+    margin-top: 30px;
+
+
+}
+
+.categories{
+    font-size: 10px;
+}
+
+.article h3{
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.article img{
+    width: 200px;
+    height: 200px;
+    float: right;
+    padding: 8px;
+}
+
+.article p{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.contact{
+    margin-bottom: 40px;
+   
+}
+
+.contact h3{
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contact img{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 50px;
+
+    
+}
+
+.contact-us{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.contact h5{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding-left: 50px;
+}
+
+.contact p{
+    font-size: .8rem;
+    padding-left: 50px;
+}
+
+.gallery-main{
+   padding: 1rem;
+   
+
+}
+
+.gallery-main h1{
+    text-align: center;
+}
+
+.gallery-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    
+    
+    
+}
+
+.gallery-main img{
+    width: 100%;
+
+}
+
+figcaption{
+    display: none;
+}
+
+
+
+
+
+.formheader{
+    text-align: center;
+    margin: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    
+    
+}
+form fieldset{
+    width: 400px;
+    border: .5px solid black;
+    padding: 1.3rem 2%;
+    margin: 0 auto;
+    
+}
+
+.personal{
+    padding-bottom: 50px;
+}
+
+.storm-container{
+    padding-bottom: 50px;
+}
+
+form legend {
+    color: black;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 16px;
+    
+}
+.label, .danger {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    padding-bottom: 1rem;
+
+}
+
+label.radiobutton{
+    padding: 10px;
+}
+
+form .label input, .label select {
+    font: 16px;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 1rem;
+    color: #555;
+    width: 100%;
+    
+    background-color: rgba(0,0,0,.1);
+}
+input .radiobutton {
+    display: block;
+    padding: 10px;
+    color: #555;
+}
+
+
+
+.textarea{
+    max-width: 100%;
+}
+
+.button{
+    display: grid;
+    justify-content: center;
+}
+form input.submitbutton {
+    width: 200px;
+    background-color: #f6ae2d;
+    color: black;
+    border-radius: .3rem;
+    padding: .75rem 1.5rem;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.thanksheader{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.thanksfooter{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/*For the town cards */
+
+.townHeroImg{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.townCards h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.townCards{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    grid-gap: 30px;
+
+}
+
+.townCards section{
+    background-color: #90C2E7;
+    width: 90%;
+    border-style: solid;
+}
+
+.townCards h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #004081;
+}
+
+.townCards h4{
+    text-align: center;
+}
+.townCards h5{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.townCards p{
+    text-align: center;
+}
+
+
+
+.townCards img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding-bottom: 20px;
+}
+
+.townFooter{
+    margin-top: 10px;
+}
+/* .clearfix{
+    content: "";
+    display: table;
+    clear: both;
+} */
