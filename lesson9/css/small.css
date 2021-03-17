@@ -381,6 +381,12 @@ input .radiobutton {
     color: #555;
 }
 
+#stormlist option{
+    cursor: pointer;
+}
+
+
+
 
 
 .textarea{
