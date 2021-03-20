@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Preston Town Page" content="">
-    <meta name = "description" content="This is the Presoton town page for weather">
+    <meta name="Soda Springs Town Page" content="">
+    <meta name = "description" content="This is the Soda Springs town page for weather">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" href="images/favicon.ico">
     <title>Document</title>
@@ -21,10 +21,7 @@
 </head>
 
 <body>
-    <script>window.onload = function() {
-            pancake();
-    }</script>
-    <div id="pancakes">Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    
     <header>
         <img src="images/weather_7-128.webp" alt="Weather Logo">
         <section class="heading">
@@ -37,24 +34,26 @@
         <button onclick=toggleMenu()>&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="preston.html">Preston</a></li>
-            <li><a href="index.html">Soda Springs</a></li>
-            <li><a href="index.html">Fish Haven</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li class="active"><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
-            <li><a href="gallery-7.html">Gallery</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
         </ul>
     </nav>
 
     <main>
-        <h2>Preston Idaho</h2>
+        <h2>Soda Springs, Idaho</h2>
 
         <div class="weather-summary-container">
+                <div class="hero-img-container">
             <picture class="my-hero-img">
                     <!-- <source media="(max-width: 500px)" srcset="images/WDD230_Hero_Small.jpg">
                      <source media="(max-width: 800px)" srcset="images/WDD230_Hero_Medium.jpg"> -->
-                     <img src="images/monica-bourgeau-QrgRXH81DXk-unsplashEDIT.jpg" alt="Hero Image">
+                     <img src="images/josh-berendes-osRrv20LPig-unsplashEDIT.jpg" alt="Hero Image">
                
-            </picture>   
+            </picture> 
+            </div> 
             <div class="weather-summary">
             <h3 class="weather-summary-title">Weather Summary</h3>
             <hr>
@@ -91,8 +90,10 @@
                     Lorem ipsum dolor sit amet consectetur adipiscing elit id urna, suspendisse mi erat habitasse euismod torquent habitant dictumst tortor molestie, convallis cubilia fringilla pretium facilisi bibendum ligula enim. Fames hac sollicitudin nam non tristique aenean felis rutrum porta, egestas mattis lacinia volutpat nunc vulputate massa. Conubia dignissim proin augue quisque vehicula tempor odio et aptent tempus, quis sapien accumsan potenti pulvinar pharetra praesent ut hendrerit, vel imperdiet feugiat cras ridiculus eget gravida himenaeos tincidunt. Vivamus cursus magna dictum cum velit taciti commodo, lacus metus sociis morbi purus est magnis donec, suscipit natoque sem blandit lobortis quam. Nisl in turpis ante varius semper penatibus sed aliquet sodales, iaculis platea scelerisque at fermentum dapibus mus elementum, a netus rhoncus ultrices venenatis class nisi vestibulum. Vitae posuere primis justo litora pellentesque inceptos maecen.</p>
                
             </article>
-
-            <div class="preston-events"></div>
+            <div class="events-container">
+                <h1>Upcoming Events:</h1>
+                <div class="events"></div>
+           </div>
         
         <div class="contact">
             <h3>Contact Information</h3>
@@ -129,7 +130,10 @@
 </script>
     <script src="js/script.js"></script>
     <script src="js/windchill.js"></script>
-    <script src="js/preston.js"></script>
-    <script src="js/towns.js"></script>
+    <script src="js/sodasprings.js"></script>
+    <script src="js/events.js"></script>
+    <script>window.onload = function(){
+        dataCall('Soda Springs');
+    }</script>
 </body>
 </html>

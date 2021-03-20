@@ -1,0 +1,111 @@
+@media only screen and (min-width: 1025px){
+    
+
+    footer{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+     main h2{
+        text-align: left;
+        padding: .8rem 2%;
+        padding-bottom: 20px;
+
+    }
+
+    nav ul li a{
+        padding: .5rem 1.3rem;
+    }
+
+    
+    .weather-summary{
+         height: 50vh;
+         width: 40vw;
+         margin-top: 20px;
+         
+         margin-left: 12px;
+       
+    }
+  
+    .categories{
+        padding: 10px;
+        font-size: 25px;
+
+    }
+
+    .values{
+        padding: 10px;
+        font-size: 25px;
+    }
+
+    
+
+    .my-hero-img img{
+        width: 100%;
+        height: 600px;
+    }
+
+    .contact-us{
+        display: flex;
+        align-items: center;
+        
+        justify-content: center;
+    }
+
+    .contact h3{
+        margin-left: 25px;
+    
+       
+    }
+    .contact img{
+        padding-left: 50px
+    }
+    .contact h5{
+        font-size: 2.8rem;
+        padding-left: 0;
+    }
+
+    .contact p{
+        font-size: 2rem;
+        padding-left: 0;
+    }
+
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        padding-left: 220px;
+    }
+
+    .gallery-container{
+        
+        grid-template-columns: 1fr 1fr 1fr;
+     
+        
+    }
+
+    .gallery-container picture:hover{
+        border-style: solid;
+        box-shadow: 0 0 20px black;
+    }
+
+    figcaption{
+        display: block;
+    }
+
+    .townHeroImg{
+        height: 600px;
+    }
+
+    .townCards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    section{
+        display: block;
+    }
+
+}
