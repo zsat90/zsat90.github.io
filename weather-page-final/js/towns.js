@@ -24,7 +24,7 @@ fetch(requestURL)
         averageRainfall.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall + ' ' + 'in.';
         yearFounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
         
-        image.setAttribute('src', 'townImages/' + towns[i].photo);
+        image.setAttribute('src', 'townimages/' + towns[i].photo);
         image.setAttribute('alt', towns[i].name);
         
         details.setAttribute('id', 'details');
