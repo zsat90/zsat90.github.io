@@ -17,7 +17,7 @@ fetch(apiURL)
 
 
         
-            // alert(weatherInfo.weather[0].description);
+            alert(weatherInfo.weather[0].description);
 
         
     });
