@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Spanish Fork City Chamber of Commerce" content="">
+    <meta name = "description" content="This is the City page for Spanish Fork City">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Spanish Fork Chamber of Commerce</title>
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="images/SFLogoEdti.jpg" alt="Chamber of Commerce Logo">
+        <h1>Spanish Fork Chamber of Commerce</h1>
+        <h3>Surround Yourself!!</h3>
+    </header>
+
+    <nav>
+        <button onclick=toggleMenu()>&#9776;</button>
+        <ul class="hide" id="nav">
+            <li> <a href="index.html">Home</a></li>
+            <li class="active"><a href="city.html">City</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <section class="cityIntro">
+            <h1>The City of Spanish Fork</h1>
+            <img src="images/SFMottoEdit.jpg" alt="Town Motto">
+        </section>
+
+        <section class="cityInformation">
+            
+            <p>Nestled at the mouth of Spanish Fork canyon. Spanish Fork is a beautiful city that lies in southern Utah County. </p>
+            <p>Being the 21st largest city in all of Utah. Spanish Fork has a population of 42,895 according to the current census.</p>
+            <p>The average household income in Spanish Fork is $91,446 with a poverty rate of 6.91%. The median rental costs in recent years comes to $1,128 per month, and the median house value is $273,600.</p>
+            <ul>
+                <h3>Spanish Fork Demographics
+                According to the most recent ACS, the racial composition of Spanish Fork was:</h3>
+                    
+                    <li>White: 94.21%</li>
+                    <li>Two or more races: 2.36%</li>
+                    <li>Other race: 1.53%</li>
+                    <li>Native Hawaiian or Pacific Islander: 0.85%</li>
+                    <li>Native American: 0.57%</li>
+                    <li>Black or African American: 0.28%</li>
+                    <li>Asian: 0.20%</li>
+                        
+            </ul>
+            <img src="images/SFOverlookEdit.jpg" alt="Overlook of Spanish Fork">
+        </section>
+    </main>
+    <footer>
+            <div class="all-contact-info">
+                <form method="get" action="contactthanks.html">
+                    <div class="contactUs">
+                        <fieldset>
+                            <legend>Contact Us</legend>
+                            <label class='label'>Full Name* <input type="text" name="fullname" pattern="[A-Za-z ]{5,}" required></label>
+                            <label class='label'>Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                            <label class='label'>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                            <textarea class="textarea" name="message" placeholder="Message..." rows="10" cols="50"></textarea>
+        
+                            <div class="button">
+                                    <input class="submitbutton" type="submit" value="Contact">
+                                  </div>
+                        </fieldset>
+                        
+                    </div>
+                </form>
+        
+                <div class="contactInfo">
+                    <p>Spanish Fork Chamber of Commerce Contact Information:</p>
+                    <p>Phone: </p> <p class="contactPhoneNumber">801-798-8352</p>
+                    <p>Address: </p><p class="contactAddress">67 E. 100 N. 84660</p>
+                </div>
+                <div class="socialMedia">
+                        <a href = "https://www.facebook.com" target="_blank">
+                            <img src = "images/facebookimg.jpg" alt = "Facebook icon">
+                          </a>
+                          <a href = "https://instagram.com/?lang=en" target="_blank">
+                          <img src = "images/instagramlogo.jpg" alt = "Instagram icon">
+                          </a>
+                </div>
+            </div>
+            </footer>
+        
+        
+            
+        
+            <script src="js/script.js"></script>
+        </body>
+        </html>

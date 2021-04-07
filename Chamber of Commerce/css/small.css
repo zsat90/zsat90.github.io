@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    padding: 1.3rem;
+    background-color: #336699;
+    
+}
+
+header img{
+    width: 150px;
+    height: auto;
+    padding-bottom: 20px;
+     
+   
+}
+
+header h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+    
+}
+
+header h3{
+    display: none;
+}
+
+nav{
+    text-align: center;
+    background-color: #336699;
+    margin: 0;
+}
+nav button{
+    display: block;
+    
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 8px;
+    margin: 0;
+}
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+nav ul li.active{
+    background-color: #8f9886;
+    color: black;
+
+}
+
+nav ul li a:hover{
+    background-color: #a62838;
+    color: black;
+}
+
+nav ul.hide{
+    display: none;
+}
+
+.imageScroller{
+    padding-top: 1rem;
+    width: 100%;
+    height: auto;
+    
+
+}
+
+.imgSlides{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.weather{
+    padding: 1rem;
+}
+
+.currentWeatherContainer{
+    background-color: #336699;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    
+}
+
+.currentWeatherContainer h3{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding-top: 15px;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.current-weather{
+    display: flex;
+    padding-left: 20px;
+    color: white;
+}
+
+.categories{
+    font-size: 18px;
+    padding-right: 12px;
+    
+}
+
+.values{
+    font-size: 18px;
+}
+
+.purpose{
+    padding-bottom: 40px;
+}
+.purpose img{
+    width: 200px;
+    float: right;
+    padding: 15px;
+
+}
+.purpose p{
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-size: 1.5rem;
+    margin: 0;
+    
+}
+
+.purpose button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    
+}
+
+.three-day-forcast{
+    padding: 1.2rem;
+}
+
+.three-day-forcast h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline black;
+}
+
+.three-day-forcast table{
+    margin: auto;
+}
+   
+.three-day-forcast th, td{
+    text-align: center;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.localCompanies h3{
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+    margin: 0;
+    text-decoration: underline 1px black;
+
+}
+
+.companies-events-container{
+    display: grid;
+    grid-template-columns: 1 fr;
+    
+}
+
+.companyOne, .companyTwo, .companyThree{
+    background-color: #336699;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 10px;
+    
+}
+
+.companyOne a, .companyTwo a, .companyThree a{
+    
+    margin: 0;
+    padding-left: 25px;
+    
+    font-size: 20px;
+    color: white;
+    
+
+}
+
+.companyOne p, .companyTwo p, .companyThree p{
+    color: white;
+    padding: 15px;
+    padding-top: 5px;
+    
+}
+
+.events{
+    padding-bottom: 40px;
+}
+
+.event{
+    background-color: #336699;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    
+    
+}
+
+.events h3{
+    padding: 1rem;
+    padding-bottom: 1rem;
+    margin: 0;
+    text-decoration: underline 1px black;
+}
+
+
+
+.event h5{
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    clear: both;
+    
+}
+
+.event p{
+    color: white;
+    font-size: 16px;
+    padding-left: 120px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+footer{
+    background-color: #336699;
+    width: 100%;
+}
+
+.contactUs{
+   width: 100%;
+}
+
+.contactUs fieldset{
+    margin: auto;
+    padding: 0;
+    padding-bottom: .8rem;
+
+}
+
+.contactUs fieldset legend{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.contactUs label{
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+
+
+    
+}
+
+.contactUs input{
+    line-height: 1.85;
+    background-color: #e9e7e7;
+    flex: 0 0 150px;
+    margin-left: auto;
+    margin-right: 30px;
+
+}
+
+.textarea{
+    background-color: #e9e7e7;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.button{
+   padding-top: 20px;
+   padding-bottom: 30px;
+   
+
+}
+
+.submitbutton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-radius: 3px;
+
+}
+
+.contactInfo{
+    padding-bottom: 30px;
+}
+
+.contactInfo p{
+    padding-left: 20px;
+    color: white;
+}
+
+.contactPhoneNumber {
+    margin-left: 40px;
+}
+
+.contactAddress{
+    margin-left: 40px;
+}
+
+.socialMedia{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.socialMedia img{
+    width: 60px;
+    height: 50px;
+       
+}
+
+.cityIntro h1{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.cityIntro img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.cityInformation img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.cityInformation p{
+    margin: 4%;
+    font-size: 18px;
+     
+}
+
+.cityInformation ul{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 5px;
+    margin: 4%;
+
+
+}
+
+.join-intro{
+    padding: 4%;
+    
+}
+
+.cityInformation li{
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+.formheader{
+    text-align: center;
+    margin: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    
+    
+}
+.joinForm fieldset{
+    width: 400px;
+    border: .5px solid black;
+    padding: 1.3rem 2%;
+    margin: 0 auto;
+    
+}
+
+.personal{
+    padding-bottom: 40px;
+}
+
+
+.joinForm legend {
+    color: black;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 16px;
+    
+}
+.label {
+    display: block;
+    padding-top: .5rem;
+    color: black;
+    padding-bottom: 1rem;
+
+}
+
+.joinForm .label input, .label select {
+    font: 16px;
+    border: solid 1px #e9e7e7;
+    border-radius: 4px;
+    padding: 1rem;
+    color: #e9e7e7;
+    width: 100%;
+    background-color: rgba(0,0,0,.1);
+}
+
+.button{
+    display: grid;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.joinForm select{
+    margin-top: 20px;
+}
+
+.joinForm textarea{
+    margin-top: 20px;
+}
+
+.perks{
+    padding: 4%;
+    padding-bottom: 30px;
+}
+
+.perks ul{
+    text-decoration: underline black 1px;
+    font-size: 14px;
+}
+
+.perks li{
+    font-size: 14px;
+}
+
+main h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contactPageInfo{
+    margin: 2%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+}
+
+.contactPhoneNumber{
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.contactAddress{
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.contactUsPage fieldset{
+    margin: auto;
+    padding: 0;
+    padding-bottom: .8rem;
+
+}
+
+.contactUsPage fieldset legend{
+    color: black;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.contactUsPage label{
+    color: black;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+
+
+    
+}
+
+.contactUsPage input{
+    line-height: 1.85;
+    background-color: #e9e7e7;
+    flex: 0 0 150px;
+    margin-left: auto;
+    margin-right: 30px;
+
+}
+
+.textarea{
+    background-color: #e9e7e7;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.boardOfDirectors{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 3%;
+    
+
+}
+
+.boardOfDirectors h2{
+    text-decoration: underline black 1px;
+}
+
+.boardOfDirectors p{
+    padding-left: 20px;
+}
+
+.embedImg{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.embedImg iframe{
+    display: block;
+    width: 90%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-grid-buttons{
+    display: none;
+}
+
+.cards h2{
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    
+
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+}
+
+.cards section{
+    background-color: #336699;
+}
+
+.cards p{
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+
+}
+
+.cards img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,280 @@
+@media only screen and (min-width: 724px){
+   
+   header{
+       padding-bottom: 60px;
+      
+   }
+
+    header img{
+        width: 280px;
+        float: left;
+        
+    }
+
+    header h1{
+        font-size: 50px;
+        padding-top: 40px;
+        
+    }
+
+    nav button{
+        display: none;
+    }
+
+    nav ul.hide{
+        display: inline;
+        white-space: nowrap;
+        
+    }
+
+    nav ul li{
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+
+    nav ul li a{
+        border: none;
+        padding: .8rem 3rem;
+        font-size: 2rem;
+    }
+
+    .currentWeatherContainer h3{
+        font-size: 3rem;
+    }
+
+    .current-weather{
+        
+        text-align: center;
+        
+    }
+
+    .categories{
+        padding-right: 30px;
+        font-size: 40px;
+    }
+
+    .values{
+        font-size: 40px;
+    }
+
+    .three-day-forcast{
+        padding: 1.6rem;
+        padding-bottom: 50px;
+    }
+    .three-day-forcast h3{
+        font-size: 3rem;
+    }
+
+    .three-day-forcast th, td{
+        font-size: 3rem;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .purpose img{
+        width: 450px;
+    }
+
+    .purpose p{
+        font-size: 3rem;
+    }
+
+    .purpose button{
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .localCompanies h3{
+        font-size: 3rem;
+    }
+
+    .companyOne a, .companyTwo a, .companyThree a{
+        font-size: 2.5rem;
+    }
+
+    .companyOne p, .companyTwo p, .companyThree p{
+        font-size: 2rem;
+    }
+
+    .events h3{
+        font-size: 3rem;
+    }
+
+    .event h5{
+        font-size: 2.5rem;
+    }
+
+    .event p{
+        font-size: 2.5rem;
+        padding-left: 220px;
+    }
+
+
+    .contactUs label{
+        font-size: 2rem;
+        
+    }
+    .contactUs input{
+        
+        margin-left: 40px;
+    }
+
+    .textarea{
+        font-size: 2rem;
+    }
+
+    .submitbutton{
+        width: 200px;
+        font-size: 2rem;
+    }
+
+    .contactInfo p{
+        font-size: 2.5rem;
+    }
+   
+    
+    .socialMedia img{
+        width: 100px;
+        height: 80px;
+        
+        
+    }
+
+    .cityIntro h1{
+        font-size: 3rem;
+        
+    
+    }
+    
+    .cityIntro img{
+        width: 450px;
+        
+    }
+
+    .cityInformation img{
+        width: 650px;
+        
+    }
+
+    .cityInformation p{
+        font-size: 1.8rem;
+         
+    }
+    
+    .cityInformation ul{
+        font-size: 2rem;
+    
+    
+    }
+
+    .formheader{
+        font-size: 3rem;
+    }
+
+    .join-intro{
+        font-size: 2rem;
+        
+    }
+
+    .joinForm .label input, .label select {
+        font: 28px;
+        padding-bottom: 20px;
+    }
+
+    .joinForm legend { 
+        font-size: 2rem;
+        
+    }
+
+    .joinForm fieldset{
+        width: 900px;
+        
+        
+    }
+
+    .joinForm select{
+        width: 250px;
+        height: 50px;
+        font-size: 1.5rem;
+        
+        
+    }
+
+   
+
+    .perks ul{
+        
+        font-size: 25px;
+    }
+
+    .perks li{
+        font-size: 20px;
+    }
+
+    main h1{
+        font-size: 3rem;
+    }
+    
+    .contactPageInfo{
+        
+        font-size: 2rem;
+       
+    }
+    
+    .contactPhoneNumber{
+        font-size: 1.8rem;
+        
+    }
+    
+    .contactAddress{
+        font-size: 1.8rem;
+        
+    }
+    
+
+    
+    .contactUsPage fieldset legend{
+        
+        font-size: 40px;
+        
+    }
+    
+    .contactUsPage label{
+        padding-left: 40px;
+        font-size: 30px;
+        
+    }
+    
+    .contactUsPage input{
+        margin-right: 130px;
+    
+    }
+    
+    
+
+    .boardOfDirectors h2{
+        font-size: 2rem;
+    }
+    
+    .boardOfDirectors p{
+       font-size: 1.8rem;
+    }
+    
+  .button{
+    
+    justify-content: left;
+    padding-left: 20px;
+}
+
+.cards{
+    grid-template-columns: 1fr 1fr;
+}
+
+    
+    
+    
+    
+
+}

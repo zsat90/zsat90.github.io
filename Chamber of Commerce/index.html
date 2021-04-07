@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Spanish Fork City Chamber of Commerce" content="">
+    <meta name = "description" content="This is the home page for Spanish Fork City Chamber of Commerce">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Spanish Fork Chamber of Commerce</title>
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="images/SFLogoEdti.jpg" alt="Chamber of Commerce Logo">
+        <h1>Spanish Fork Chamber of Commerce</h1>
+        <h3>Surround Yourself!!</h3>
+    </header>
+
+    <nav>
+        <button onclick=toggleMenu()>&#9776;</button>
+        <ul class="hide" id="nav">
+            <li class="active"> <a href="index.html">Home</a></li>
+            <li><a href="city.html">City</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+<main>
+    <section class="imageScroller">
+        <div>
+            <img class="imgSlides" src="images/SFApartmentsEdit.jpg" alt="Apartments">
+            <img class="imgSlides" src="images/SFLandscapeEdit.jpg" alt="Landscape of Spanish Fork">
+            <img class="imgSlides" src="images/SFStadiumEdit.jpg" alt="Stadium">
+            <img class="imgSlides" src="images/SFkrishna2Edit.jpg" alt="Krishna Temple">
+    
+            
+        </div>
+    </section>
+
+    <section class="weather">
+        <div class="currentWeatherContainer">
+            <h3>Current Weather</h3>
+                <div class="current-weather"><p class="categories" id="currentWeather">Temperature:</p> <p class="values"><span id="temp"></span>-F</p></div>
+                <div class="current-weather"><p class="categories" id="currentTemp">Current:</p> <p class="values"><span id="current-description"></span></p></div>
+                <div class="current-weather"> <p class="categories" id="windChill">Humidity:</p> <p class="values"><span id="humidity"></span>%</p> </div>
+       </div>
+
+       <div class="three-day-forcast" id="three-day-forcast">
+           <h3>Three Day Forcast</h3>
+       </div>
+
+       <div class="weatherAlerts">
+           
+       </div>
+    </section>
+
+    <section class="purpose">
+            <img src="images/SFCityOfficesEdit.jpg" alt="City Offices">
+        <p>The Spanish Fork Chamber strives to promote its members and the business community.</p>
+        <p>Our SHOP LOCAL campaign gives local residents the opportunity and the privilege to support the local economy by putting 
+                its hard earned dollars back into the area in which they live, work and play. </p>
+                <p>Our goal is to partner with businesses and professionals to help improve and build a healthy economy.</p>
+        
+        <button type="button" onclick="location.href = 'join.html'">Join now</button>
+    </section>
+
+<div class="companies-events-container">
+    <section class="localCompanies">
+        <h3>Highlighted Companies</h3>
+        <div class="companyOne"> 
+            <h5><a href="https://restaurants.fiveguys.com/529-east-1000-north">The Oaks and Spanish Fork</a></h5> 
+            <p>Nestled near the mouth of the canyon. This beautiful golf course will provide a great time and great scenery. </p>
+        </div>
+        <div class="companyTwo">
+            <h5> <a href="https://restaurants.fiveguys.com/529-east-1000-north">Five Guys Burgers and Fries</a></h5>
+            <p>If you are hungry and love burgers then look no further. Five Guys is an amazing burger joint that will be sure to wow.</p>
+        </div>
+        <div class="companyThree">
+            <h5><a href="https://restaurants.fiveguys.com/529-east-1000-north">Costco</a></h5>
+            <p>A members only warehouse selling a large variety of items including bulk groceries, electronics, and much more.</p>
+        </div>
+    </section>
+
+    <section class="events">
+        <h3>Upcoming Events</h3>
+        <div class="event">
+            <h5>April 01:</h5>
+            <p>Business of the Month</p>
+        </div>
+        <div class="event">
+            <h5>April 14:</h5>
+            <p>#BusinessSeries</p>
+        </div>
+        <div class="event">
+            <h5>April 15:</h5>
+            <p>Noon Networking Luncheon</p>
+        </div>
+        <div class="event">
+            <h5>April 22:</h5>
+            <p>Credit Matters: Know your score and more!</p>
+        </div>
+        <div class="event">
+            <h5>April 28:</h5>
+            <p>Money-Making Marketing</p>
+        </div>
+    </section>
+</div>
+    <footer>
+    <div class="all-contact-info">
+        <form method="get" action="contactthanks.html">
+            <div class="contactUs">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label class='label'>Full Name* <input type="text" name="fullname" pattern="[A-Za-z ]{5,}" required></label>
+                    <label class='label'>Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                    <label class='label'>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <textarea class="textarea" name="message" placeholder="Message..." rows="10" cols="50"></textarea>
+
+                    <div class="button">
+                            <input class="submitbutton" type="submit" value="Contact">
+                          </div>
+                </fieldset>
+                
+            </div>
+        </form>
+
+        <div class="contactInfo">
+            <p>Spanish Fork Chamber of Commerce Contact Information:</p>
+            <p>Phone: </p> <p class="contactPhoneNumber">801-798-8352</p>
+            <p>Address: </p><p class="contactAddress">67 E. 100 N. 84660</p>
+        </div>
+        <div class="socialMedia">
+                <a href = "https://www.facebook.com" target="_blank">
+                    <img src = "images/facebookimg.jpg" alt = "Facebook icon">
+                  </a>
+                  <a href = "https://instagram.com/?lang=en" target="_blank">
+                  <img src = "images/instagramlogo.jpg" alt = "Instagram icon">
+                  </a>
+        </div>
+    </div>
+    </footer>
+
+
+    
+</main>
+    <script src="js/script.js"></script>
+</body>
+</html>

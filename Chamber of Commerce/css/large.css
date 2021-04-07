@@ -1,0 +1,77 @@
+@media only screen and (min-width: 1024px){
+
+    header{
+        padding-bottom: 95px;
+       
+    }
+
+    .all-contact-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .contactUs fieldset{
+        padding-left: 20px;
+        
+        padding-top: 20px;
+    }
+
+    .contactUs legend{
+        padding-top: 20px;
+    }
+
+    .contactInfo p{
+        padding-left: 60px;
+    }
+
+    .socialMedia{
+        grid-column: 2/3;
+        margin: auto;
+    }
+
+    .cityIntro h1{
+        font-size: 5rem;
+        
+    
+    }
+    
+    .cityIntro img{
+        width: 750px;
+        
+    }
+
+    .cityInformation img{
+        width: 950px;
+        
+    }
+
+    .cityInformation p{
+        font-size: 2rem;
+         
+    }
+    
+    .cityInformation ul{
+        font-size: 2rem;
+        padding-top: 50px;
+    
+    
+    }
+
+    .cityInformation li{
+        padding-left: 50px;
+        padding-top: 40px;
+    
+    }
+
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+
+
+
+
+
+
+}

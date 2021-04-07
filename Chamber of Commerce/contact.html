@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Spanish Fork City Chamber of Commerce" content="">
+    <meta name = "description" content="This is the contact page for Spanish Fork City Chamber of Commerce">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Spanish Fork Chamber of Commerce</title>
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="images/SFLogoEdti.jpg" alt="Chamber of Commerce Logo">
+        <h1>Spanish Fork Chamber of Commerce</h1>
+        <h3>Surround Yourself!!</h3>
+    </header>
+
+    <nav>
+        <button onclick=toggleMenu()>&#9776;</button>
+        <ul class="hide" id="nav">
+            <li> <a href="index.html">Home</a></li>
+            <li><a href="city.html">City</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Contact Us</h1>
+        <div class="contactPageInfo">
+            <p>Spanish Fork Chamber of Commerce Contact Information:</p>
+            <p class="contactPhoneNumber">Phone: </p> <p class="contactPhoneNumber">801-798-8352</p>
+            <p class="contactAddress">Address: </p><p class="contactAddress">67 E. 100 N. 84660</p>
+        </div>
+
+        <div class="all-contactPage-info">
+            <form method="get" action="contactthanks.html">
+                <div class="contactUsPage">
+                    <fieldset>
+                        <legend>Contact Us</legend>
+                        <label class='label'>Full Name* <input type="text" name="fullname" pattern="[A-Za-z ]{5,}" required></label>
+                        <label class='label'>Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                        <label class='label'>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <textarea class="textarea" name="message" placeholder="Message..." rows="10" cols="50"></textarea>
+    
+                        <div class="button">
+                                <input class="submitbutton" type="submit" value="Contact">
+                              </div>
+                    </fieldset>
+                    
+                </div>
+            </form>
+
+       
+
+        <div class="boardOfDirectors">
+            <h2>Board of Directors</h2>
+            <p>Heather Youd: President/CEO</p>
+            <p>Whitney Ferguson: Office Manager</p>
+            <p>Jesse Cardon: Chairman of the Board</p>
+            <p>Randi Kaufman: Vice Chairmen of the Board</p>
+            
+        </div>
+
+
+
+    </main>
+
+
+    <footer>
+
+
+            <div class="embedImg">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48822.098962747245!2d-111.6664174451126!3d40.11150787031574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874db9d7dc27d89d%3A0x8b6bd315d9f959d0!2sSpanish%20Fork%2C%20UT%2084660!5e0!3m2!1sen!2sus!4v1617666427742!5m2!1sen!2sus" width="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+
+            <div class="socialMedia">
+                    <a href = "https://www.facebook.com" target="_blank">
+                        <img src = "images/facebookimg.jpg" alt = "Facebook icon">
+                      </a>
+                      <a href = "https://instagram.com/?lang=en" target="_blank">
+                      <img src = "images/instagramlogo.jpg" alt = "Instagram icon">
+                      </a>
+            </div>
+        </div>
+        </footer>
+    
+    
+        
+    
+        <script src="js/script.js"></script>
+    </body>
+    </html>
